@@ -1,6 +1,6 @@
-#### Manual setup
+#### Setup
 
-Please follow these steps for manual setup:
+Please follow these steps for setup:
 
 1. [Download the precompiled template](https://github.com/dec0dOS/amazing-github-template/releases/download/latest/template.zip)
 2. Replace all the [variables](#variables-reference) to your desired values
