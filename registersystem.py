@@ -1,7 +1,7 @@
 from colorama import Fore
 import os
 import random
-import test
+import loginsystem
 
 code5 = f"{random.randint(10000, 99999)}"
 print(code5)
@@ -51,7 +51,7 @@ def register(email, password):
 			print(f"{Fore.WHITE} Verification code send to email")
 			verificationcode()
 			time.sleep(3)
-			with open('log.txt', 'a') as p:
+			with open('account.txt', 'a') as p:
 				p.write(email + ':' + password)
 
 			input(f"{Fore.RESET}{Fore.LIGHTGREEN_EX}Succesfully registered press any key to exit")
