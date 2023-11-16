@@ -15,7 +15,7 @@ def check_word_in_file(file_path, email, password):
 def login():
 	email = input("Email: ")
 	password = input("Password:  ")
-	check_word_in_file(file_path='log.txt', email=f'{email}', password=f'{password}')
+	check_word_in_file(file_path='account.txt', email=f'{email}', password=f'{password}')
 	if found:
 		print("Succesfully login")
 		quit()
